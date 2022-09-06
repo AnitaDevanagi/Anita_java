@@ -9,10 +9,8 @@ class Restaurant{
       boolean veg;
       float  reviews;
 
-
-        Restaurant(){
+       Restaurant(){
         }
-   
       Restaurant(String manage, int noworker, boolean ve, float rev){
       manager=manage;
       noOfworkers=noworker;
@@ -23,17 +21,20 @@ class Restaurant{
       
 
      public static void main (String[] args){
+
+       Restaurant cg = new Restaurant();
+        for(int i=0; i<cg.owner.length; i++){
+         System.out.println(cg.owner[i]);
+         }
+
      
       System.out.println(Restaurant.name);
       System.out.println(Restaurant.location);
       System.out.println(Restaurant.cost);
      
-      Restaurant restaurant = new Restaurant();
-      System.out.println(restaurant.owner[0]);
-      System.out.println(restaurant.owner[1]);
-      System.out.println(restaurant.owner[2]);
-      System.out.println(restaurant.owner[3]);
-  
+      
+     
+      
 
       Restaurant abc = new Restaurant("Nikhil",230,true,4.5f);
       
