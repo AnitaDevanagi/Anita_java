@@ -1,19 +1,20 @@
 class Replace{
- public static void main(String[] args){
 
-   String a = "Animal";
-   String name= a.replace('a','e');
-   System.out.println(name);
-  
+    String a = "Animal";
+    String name= a.replace('a','e');
 
-   String b = "The Animal name is Tiger";
-   String c= b.replace("is","was");
-   System.out.println(c);
-
-  String ab = "Hotel";
-  String cd = ab.replace("Hotel","Restaurant");
-  System.out.println(cd);
+    String hjk = "The Animal name is Tiger";
+    String c= hjk.replace("is","was");
+   
+    String nam = "Hotel";
+    String cd = nam.replace("Hotel","Restaurant");
 
 
- }
+   public static void main(String[] args){
+
+   Replace ab = new Replace();
+   System.out.println(ab.name);
+   System.out.println(ab.c);
+   System.out.println(ab.cd);
+   }
 }
