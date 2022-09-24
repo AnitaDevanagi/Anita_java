@@ -9,7 +9,7 @@ class Primenumber{
   	 	Scanner a = new Scanner(System.in);
   		System.out.println("please Enter the value");
    		int n = a.nextInt();
- 		 for (int i=2; i<8; i++){
+ 		 for (int i=2; i<13; i++){
    
  			if(n%i==0){
  				 System.out.println("Not a prime Number");
